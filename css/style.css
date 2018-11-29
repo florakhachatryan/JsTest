@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.problem{
+    width: 100%;
+    height: auto;
+}
+.problem-section-inner{
+    width: 80%;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+.problem-solver{
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+.problem-solver:hover{
+    background-color: #2bbbad;
+}
+.problem-solver:focus{
+    outline: none;
+}
+input{
+    display: inline-block;
+    width: 300px;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.problem4-form{
+    padding: 30px 10px 10px 10px;
+    float: left;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+.problem4-field{
+    margin-bottom: 5px;
+    display: block !important;
+    width: 300px;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.cancel{
+    background: #ff0000bd;
+}
+.error-message{
+    color: #ff0000bd;
+
+}
+
+.problem4-form .error-message{
+    width: 300px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+
+.invalid-data{
+    border-color: #ff0000bd !important;
+}
+.select-field4{
+    height: 50px;
+    width: 325px;
+}
